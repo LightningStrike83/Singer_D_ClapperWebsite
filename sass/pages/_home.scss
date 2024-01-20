@@ -1,0 +1,80 @@
+@use "../abstracts/colours" as c;
+
+#animated-intro {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    img {
+        grid-column: 1/-1;
+    }
+}
+
+#greeting {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: c.$giratina-black;
+}
+
+#intro {
+    margin-bottom: 30px;
+    p {
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: c.$giratina-black;
+        text-align: center;
+    }
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    img {
+        max-width: 75%;
+        margin-bottom: 10px;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #animated-intro {
+        img {
+            max-width: 100vh;
+        }
+    }
+}
+
+@media screen and (min-width: 450px) {
+    #animated-intro {
+        left: 25vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #animated-intro {
+        left: 25%;
+    }
+
+    #picture {
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #greeting {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
