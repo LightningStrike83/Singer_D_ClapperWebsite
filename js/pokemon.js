@@ -3,6 +3,7 @@
     const pokemonButton = document.querySelectorAll(".pokemon-button")
     const lichtButton = document.querySelector("#formal-licht")
     const casualButton = document.querySelector("#casual-licht")
+    const pokemonImage = document.querySelector("#pokemon-image")
 
     let pokemonData = [
         {
@@ -160,6 +161,9 @@
         let pokemonGimmick = document.createElement("p")
         let pokemonText = document.createElement("p")
         const styleButtons = document.querySelector("#style-buttons")
+
+        bioDiv.style.display = "block"
+        imageDiv.style.display = "flex"
         
         bioDiv.innerHTML = ""
         imageDiv.innerHTML = ""
@@ -192,28 +196,42 @@
         bioDiv.appendChild(pokemonText)
 
         styleButtons.style.order = "1"
+
+        pokemonImage.style.display = "none"
     }
     
     function selectorAppear() {
         const lichtPokemon = document.querySelector("#pokemon-buttons-licht")
         const casualPokemon = document.querySelector("#pokemon-buttons-casual")
+        let imageDiv = document.querySelector("#pokemon-main-image")
+        let bioDiv = document.querySelector("#pokemon-bio")
 
         if (this === lichtButton) {
             if (lichtPokemon.style.display === "flex") {
                 lichtPokemon.style.display = "none"
                 casualPokemon.style.display = "none"
+                pokemonImage.style.display = "flex"
+                pokemonImage.style.order = "1"
+                imageDiv.style.display = "none"
+                bioDiv.style.display = "none"
             } else {
                 lichtPokemon.style.display = "flex"
                 casualPokemon.style.display = "none"
+                pokemonImage.style.display = "none"
             }
             
         } else if (this === casualButton) {
             if (casualPokemon.style.display === "flex") {
                 lichtPokemon.style.display = "none"
                 casualPokemon.style.display = "none"
+                pokemonImage.style.display = "flex"
+                pokemonImage.style.order = "1"
+                bioDiv.style.display = "none"
+                imageDiv.style.display = "none"
             } else {
                 lichtPokemon.style.display = "none"
                 casualPokemon.style.display = "flex"
+                pokemonImage.style.display = "none"
             }
 
             
