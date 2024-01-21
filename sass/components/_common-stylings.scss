@@ -1,0 +1,7 @@
+@use "../abstracts/colours" as c;
+
+.dark-box {
+    padding: 5px;
+    border: 1px solid c.$giratina-silver;
+    background-color: c.$giratina-black;
+}

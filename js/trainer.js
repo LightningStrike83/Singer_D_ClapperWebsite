@@ -8,7 +8,7 @@
             side : "Ringmaster Attire",
             design : "Outfit Design by: ---",
             position : "Main Team: Chandelure, Aegislash, Dhelmise, Basculegion, Zoroark, Dragapult",
-            description: "Bio: ---",
+            description: "Bio: -Redacted-",
         },
 
         {
@@ -44,6 +44,7 @@
 
         trainerPic.src = `images/${trainerData[this.dataset.member].image}-main.png`
         trainerCredit.textContent = "Art by ---"
+        trainerCredit.style.backgroundColor = "#44433f"
 
         sideText.textContent = `${trainerData[this.dataset.member].side}`
         designText.textContent = `${trainerData[this.dataset.member].design}`
