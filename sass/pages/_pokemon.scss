@@ -22,8 +22,9 @@
     align-items: center;
     p {
         padding: 5px;
-        border: 1px solid white;
+        border: 1px solid c.$giratina-silver;
         margin-bottom: 20px;
+        background-color: c.$giratina-black;
     }
 }
 
@@ -65,7 +66,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid c.$giratina-silver;
     border-radius: 10px;
     transition: all ease-in-out 0.5s;
     cursor: pointer;
@@ -91,7 +92,7 @@
     }
     p {
         padding: 5px;
-        border: 1px solid white;
+        border: 1px solid c.$giratina-silver;
         margin-bottom: 20px;
     }
 }

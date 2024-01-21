@@ -1,0 +1,8 @@
+Keep loading screen gif
+Fades into curtain svg
+Have each layer transition to off screen with dark background
+Flash in intro text
+Flash in mask
+Fades in rest of content
+
+Armarouge (Confuse Ray), Garchomp (Shadow Claw), Leafeon (Shadow Ball), Slowking (Curse), Ambipom (@King's Rock Mud-Slap, Technician, Triple Axel, Fake Out, Astonish), Corviknight (Pressure, Spite, Fly, Roost, Endure)

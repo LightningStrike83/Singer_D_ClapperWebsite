@@ -61,7 +61,7 @@
             species : "Species: Dragapult",
             gender : "Gender: Male",
             nature : "Nature: -",
-            ability : "Ability: Cursed Bodyr",
+            ability : "Ability: Cursed Body",
             gimmick : "Gimmick: None",
             bio : "Story: "
         },
@@ -90,7 +90,7 @@
             image : "absol",
             species : "Species: Absol (??? Form)",
             gender : "Gender: Unknown",
-            nature : "Nature: Unkwnon",
+            nature : "Nature: Unknown",
             ability : "Ability: Unknown",
             gimmick : "Gimmick: Unknown",
             bio : "Story: "
@@ -99,7 +99,7 @@
         {
             image : "delphox",
             species : "Species: Delphox",
-            gender : "Gender: ",
+            gender : "Gender: Female",
             nature : "Nature: -",
             ability : "Ability: -",
             gimmick : "Gimmick: ",
@@ -140,9 +140,39 @@
             image : "absol",
             species : "Species: Absol (??? Form)",
             gender : "Gender: Unknown",
-            nature : "Nature: Unkwnon",
+            nature : "Nature: Unknown",
             ability : "Ability: Unknown",
             gimmick : "Gimmick: Unknown",
+            bio : "Story: "
+        },
+
+        {
+            image : "marshadow",
+            species : "Species: Marshadow",
+            gender : "Gender: Non-binary",
+            nature : "Nature: Unknown",
+            ability : "Ability: Technician",
+            gimmick : "Gimmick: Z-Move (Soul-Stealing 7-Star Strike)",
+            bio : "Story: "
+        },
+
+        {
+            image : "hoopa",
+            species : "Species: Hoopa (Unbound)",
+            gender : "Gender: Non-binary",
+            nature : "Nature: Unknown",
+            ability : "Ability: Magician",
+            gimmick : "Gimmick: None",
+            bio : "Story: "
+        },
+
+        {
+            image : "zeraora",
+            species : "Species: Zeraora",
+            gender : "Gender: Non-binary",
+            nature : "Nature: Unknown",
+            ability : "Ability: Plasma Fists",
+            gimmick : "Gimmick: None",
             bio : "Story: "
         },
     ]
